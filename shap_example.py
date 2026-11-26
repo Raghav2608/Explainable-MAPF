@@ -1,6 +1,6 @@
 import itertools
 import math
-import pymapf
+from pymapf import pymapf
 
 # ---------------------------------------------------------
 # 1. Define 2D Obstacle Grid & Agents
