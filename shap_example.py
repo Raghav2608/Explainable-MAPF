@@ -116,7 +116,7 @@ if __name__ == "__main__":
         print(f"  {name}: {path}")
 
     try:
-        from pymapf import viz
+        from pymapf.pymapf import viz
         fig = viz.plot_solution(cbs_sol, cbs_problem)
         viz.save(fig, "cbs_plan.png")
         print("Saved plot to cbs_plan.png")
